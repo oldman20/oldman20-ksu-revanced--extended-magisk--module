@@ -9,13 +9,13 @@ parallel-jobs = 1
 [YouTube]
 build-mode = "both"
 excluded-patches = ""
-included-patches = ""
+included-patches = "'Enable slide to seek' 'Custom branding' 'Change header' 'Remove player controls background'"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 included-patches = "'Enable slide to seek' 'Custom branding' 'Change header' 'Remove player controls background'"
-patcher-args = "-OappName=YouTube -OiconPath=mmt "
+patcher-args = "-OappName=YouTube -OiconPath=MMT "
 
 [Music]
 build-mode = "both"
